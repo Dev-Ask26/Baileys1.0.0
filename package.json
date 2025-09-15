@@ -1,5 +1,5 @@
 {
-  "name": "@dev-ask26/Baileys",
+  "name": "@dev-ask26/Baileys1.0.0",
   "version": "1.0.1",
   "description": "WhatsApp Baileys by Dev Ask designed for you",
   "keywords": [
@@ -12,18 +12,18 @@
     "automation",
     "multi-device"
   ],
-  "homepage": "https://github.com/Dev-Ask26/@dev-ask26/Baileys",
+  "homepage": "https://github.com/Dev-Ask26/@dev-ask26/Baileys1.0.0",
   "repository": {
-    "url": "git@github.com: Dev-ask26/@dev-ask26/Baileys.git"
+    "url": "git@github.com: Dev-ask26/@dev-ask26/Baileys1.0.0.git"
   },
   "license": "MIT",
   "author": "DEV ASK TECH",
-  "main": "ask-lib/index.js",
-  "types": "ask-lib/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
-    "ask-lib/*",
-    "AskWaproto/*",
-    "AskWASignalGroup/*.js"
+    "lib/*",
+    "WaProto/*",
+    "WASignalGroup/*.js"
   ],
   "scripts": {
     "build:all": "tsc && typedoc",
