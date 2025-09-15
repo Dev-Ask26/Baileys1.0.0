@@ -1,7 +1,7 @@
 {
-  "name": "baileys",
-  "version": "6.7.4",
-  "description": "WhatsApp API",
+  "name": "@dev-ask26/Baileys",
+  "version": "1.0.1",
+  "description": "WhatsApp Baileys by Dev Ask designed for you",
   "keywords": [
     "whatsapp",
     "js-whatsapp",
@@ -12,18 +12,18 @@
     "automation",
     "multi-device"
   ],
-  "homepage": "https://github.com/WhiskeySockets/Baileys",
+  "homepage": "https://github.com/Dev-Ask26/@dev-ask26/Baileys",
   "repository": {
-    "url": "git@github.com:WhiskeySockets/Baileys.git"
+    "url": "git@github.com: Dev-ask26/@dev-ask26/Baileys.git"
   },
   "license": "MIT",
-  "author": "Adhiraj Singh",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "author": "DEV ASK TECH",
+  "main": "ask-lib/index.js",
+  "types": "ask-lib/index.d.ts",
   "files": [
-    "lib/*",
-    "WAProto/*",
-    "WASignalGroup/*.js"
+    "ask-lib/*",
+    "AskWaproto/*",
+    "AskWASignalGroup/*.js"
   ],
   "scripts": {
     "build:all": "tsc && typedoc",
@@ -34,7 +34,7 @@
     "changelog:update": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "example": "node --inspect -r ts-node/register Example/example.ts",
     "example:mobile": "node --inspect -r ts-node/register Example/example.ts --mobile",
-    "gen:protobuf": "sh WAProto/GenerateStatics.sh",
+    "gen:protobuf": "sh AskWaproto/GenerateStatics.sh",
     "lint": "eslint src --ext .js,.ts,.jsx,.tsx",
     "lint:fix": "eslint src --fix --ext .js,.ts,.jsx,.tsx",
     "prepack": "tsc",
@@ -45,12 +45,14 @@
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@hapi/boom": "^9.1.3",
+    "@cacheable/node-cache": "^1.4.0",
     "audio-decode": "^2.1.3",
     "axios": "^1.3.3",
     "cache-manager": "4.0.1",
+    "chalk": "^4.1.2",
     "futoin-hkdf": "^1.5.1",
     "libphonenumber-js": "^1.10.20",
-    "libsignal": "github:adiwajshing/libsignal-node",
+    "libsignal": "npm:@shennmine/libsignal-node",
     "music-metadata": "^7.12.3",
     "node-cache": "^5.1.2",
     "pino": "^7.0.0",
