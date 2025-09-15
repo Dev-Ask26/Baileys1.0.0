@@ -1,38 +1,38 @@
-# Baileys - Typescript/Javascript WhatsApp Web API
+# Baileys - API WhatsApp Web en Typescript/Javascript
 
-### Important Note
+### Note importante
 
-This library was originally a project for **CS-2362 at Ashoka University** and is in no way affiliated with or endorsed by WhatsApp. Use at your own discretion. Do not spam people with this. We discourage any stalkerware, bulk or automated messaging usage. 
+Cette bibliothèque était à l'origine un projet pour **CS-2362 à l'Université Ashoka** et n'est en aucune façon affiliée à ou approuvée par WhatsApp. Utilisez-la à vos propres risques. Ne spammez pas les gens avec cela. Nous déconseillons toute utilisation de logiciel espion, de messagerie en masse ou automatisée.
 
-#### Liability and License Notice
-Baileys and its maintainers cannot be held liable for misuse of this application, as stated in the [MIT license](https://github.com/WhiskeySockets/Baileys/blob/master/LICENSE).
-The maintainers of Baileys do not in any way condone the use of this application in practices that violate the Terms of Service of WhatsApp. The maintainers of this application call upon the personal responsibility of its users to use this application in a fair way, as it is intended to be used.
+#### Avis de responsabilité et de licence
+dev-ask26 Baileys1.0.0 et ses mainteneurs ne peuvent être tenus responsables de l'utilisation abusive de cette application, comme indiqué dans la [licence MIT](https://github.com/WhiskeySockets/Baileys/blob/master/LICENSE).
+Les mainteneurs de dev-ask26 Baileys1.0.0 ne cautionnent en aucune manière l'utilisation de cette application dans des pratiques qui violent les Conditions d'Utilisation de WhatsApp. Les mainteneurs de cette application font appel à la responsabilité personnelle de ses utilisateurs pour utiliser cette application de manière équitable, comme elle est destinée à être utilisée.
 ##
 
-Baileys does not require Selenium or any other browser to be interface with WhatsApp Web, it does so directly using a **WebSocket**. 
-Not running Selenium or Chromimum saves you like **half a gig** of ram :/ 
-Baileys supports interacting with the multi-device & web versions of WhatsApp.
-Thank you to [@pokearaujo](https://github.com/pokearaujo/multidevice) for writing his observations on the workings of WhatsApp Multi-Device. Also, thank you to [@Sigalor](https://github.com/sigalor/whatsapp-web-reveng) for writing his observations on the workings of WhatsApp Web and thanks to [@Rhymen](https://github.com/Rhymen/go-whatsapp/) for the __go__ implementation.
- 
-## Please Read
+dev-ask26 Baileys1.0.0 ne nécessite pas Selenium ou tout autre navigateur pour interfacer avec WhatsApp Web, il le fait directement en utilisant un **WebSocket**.
+Ne pas exécuter Selenium ou Chromium vous économisez comme **un demi-gig** de RAM :/
+dev-ask26 Baileys1.0.0 supporte l'interaction avec les versions multi-appareils et web de WhatsApp.
+Merci à [@pokearaujo](https://github.com/pokearaujo/multidevice) pour avoir écrit ses observations sur le fonctionnement de WhatsApp Multi-Device. Aussi, merci à [@Sigalor](https://github.com/sigalor/whatsapp-web-reveng) pour avoir écrit ses observations sur le fonctionnement de WhatsApp Web et merci à [@Rhymen](https://github.com/Rhymen/go-whatsapp/) pour l'implémentation en __go__.
 
-The original repository had to be removed by the original author - we now continue development in this repository here.
-This is the only official repository and is maintained by the community.
- **Join the Discord [here](https://discord.gg/WeJM5FP9GG)**
- 
-## Example
+## Merci de lire
 
-Do check out & run [example.ts](Example/example.ts) to see an example usage of the library.
-The script covers most common use cases.
-To run the example script, download or clone the repo and then type the following in a terminal:
-1. ``` cd path/to/Baileys ```
+Le dépôt original a dû être supprimé par l'auteur original - nous continuons maintenant le développement dans ce dépôt ici.
+Ceci est le seul dépôt officiel et est maintenu par la communauté.
+ **Rejoignez le Discord [ici](https://discord.gg/WeJM5FP9GG)**
+
+## Exemple
+
+Consultez et exécutez [example.ts](Example/example.ts) pour voir un exemple d'utilisation de la bibliothèque.
+Le script couvre la plupart des cas d'utilisation courants.
+Pour exécuter le script exemple, téléchargez ou clonez le dépôt puis tapez les commandes suivantes dans un terminal :
+1. ``` cd chemin/vers/dev-ask26 Baileys1.0.0 ```
 2. ``` yarn ```
 3. ``` yarn example ```
 
-## Install
+## Installation
 
-Use the stable version:
-```
+Utilisez la version stabile
+
 yarn add @dev-ask26/baileys
 ```
 
