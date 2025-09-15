@@ -33,7 +33,7 @@ To run the example script, download or clone the repo and then type the followin
 
 Use the stable version:
 ```
-yarn add @whiskeysockets/baileys
+yarn add @dev-ask26/baileys
 ```
 
 Use the edge version (no guarantee of stability, but latest fixes + features)
